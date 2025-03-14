@@ -28,7 +28,7 @@ body {
 
 header {
     grid-area: header;
-    background: #333;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), #333 50%) ;
     color: white;
     padding: 20px;
     height: 20px;
@@ -45,8 +45,7 @@ nav {
     grid-area: nav;
     background: #555;
     color: white;
-    background-color: rgba(0,0,0,0);
-    
+    background-color: rgba(0,0,0,0.1);
     padding: 15px;
     border-radius: 10px;
 }
