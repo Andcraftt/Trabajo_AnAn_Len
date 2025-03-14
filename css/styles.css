@@ -5,11 +5,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 1000px;
+    
 }
 .container {
     display: grid;
     background-color: black;
-    background-image: url(../img/IMGBG.png);
+    background: url(../img/IMGBG.png) no-repeat center center/cover;
     grid-template-areas: 
         "header header header header header"
         "nav nav nav nav nav"
@@ -35,6 +36,14 @@ header {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+}
+header div a{
+    text-decoration: none;
+    color:inherit;
+}
+header div a:hover{
+    text-decoration: none;
+    color:grey;
 }
 .derecha{
     display: flex;
