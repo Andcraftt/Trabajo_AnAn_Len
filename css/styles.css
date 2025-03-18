@@ -72,7 +72,7 @@ nav p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px; /* Más espacio entre imágenes */
     margin-bottom: 20px;
     flex-grow: 1; /* Ocupa el espacio restante */
@@ -87,7 +87,7 @@ nav p {
     align-items: center;
     text-align: center;
     height: 250px;
-    width: 100%; 
+    width: 80%; 
     object-fit: cover; 
 }
 
