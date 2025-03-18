@@ -95,6 +95,10 @@ nav p {
     object-fit: cover; 
 }
 
+.image:hover {
+    transform: scale(1.3);
+}
+
 footer {
     background: #333;
     color: white;
