@@ -24,6 +24,13 @@ button{
     background-color: rgba(39, 185, 243, 0.63);
     border-radius: 20px;
     gap:30px;
+
+    
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap:5px
 }
 input{
     width: 80%;
