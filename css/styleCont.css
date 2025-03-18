@@ -13,10 +13,13 @@
     align-items: center;
     flex-direction: column;
 
+
 }
 button{
     width: 50%;
-    height: 20px;;
+    height: 30px;
+    border-color: black;
+    
 }
 .form {
     width: 80%;
@@ -30,7 +33,8 @@ button{
 form{
     display:flex;
     flex-direction: column;
-    gap:5px
+    gap:5px;
+    align-items: center;
 }
 input{
     width: 80%;
