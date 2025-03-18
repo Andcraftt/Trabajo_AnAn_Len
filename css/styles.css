@@ -201,7 +201,16 @@ button{
     width: 300px;
     height: 40px;
 }
-
+.us-container{
+    font-family:'Courier New', Courier, monospace;
+    background-color:white;
+    margin-top: 25%;
+    margin:auto;
+    width: 400px;
+    height: 600px;
+    padding: 30px;
+    border-radius: 30px;
+}
 .dropdown {
     position: relative;
     display: inline-block;
