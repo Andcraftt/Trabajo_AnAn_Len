@@ -1,5 +1,5 @@
 body {
-    font-family: "Courier New", monospace;
+    font-family: 'Creepster', cursive; /* Fuente de terror */
     margin: 0;
     padding: 0;
     display: flex;
@@ -73,7 +73,7 @@ nav p {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
+    gap: 20px; /* Más espacio entre imágenes */
     margin-bottom: 20px;
     flex-grow: 1; /* Ocupa el espacio restante */
 }
@@ -87,6 +87,8 @@ nav p {
     align-items: center;
     text-align: center;
     height: 250px;
+    width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
 }
 
 footer {
@@ -115,7 +117,7 @@ footer {
     }
 
     .image {
-        height: 100px;
+        height: 150px;
     }
 }
 
@@ -133,6 +135,6 @@ footer {
     }
 
     .image {
-        height: 80px;
+        height: 100px;
     }
 }
