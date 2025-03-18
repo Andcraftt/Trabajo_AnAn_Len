@@ -59,6 +59,19 @@ textarea{
     
 
 }
+@media (max-width:768px){
+    .der-contactar{
+        grid-template-areas:
+        "face"
+        "insta"
+        "twt";
+        grid-template-rows: 33% 33% 33%;
+        justify-self: center;
+
+    }
+    
+
+}
 
 
 a{
