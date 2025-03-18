@@ -77,11 +77,24 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
 .image {
     background: lightgray;
     padding: 50px;
     border: 1px solid #999;
     border-radius: 15px;
+    width:50%;
+    height: auto;
+    object-fit: cover;
+}
+@media (max-width: 1508px) {
+    .image{
+        width: 30%;
+    }
+
+}
+@media (max-width:800px){
+    
 }
 .image:nth-child(3) { grid-area: img1; }
 .image:nth-child(4) { grid-area: img2; }
