@@ -3,16 +3,15 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
     background-color: #f0f0f0;
 }
 
 .container {
-    height: 100vw;
     display: flex;
     flex-direction: column;
+    flex-grow: 1; /* Ocupa el espacio restante */
     background-color: black;
     background: url(../img/IMGBG.png) no-repeat center center/cover;
     width: 90%;
@@ -20,12 +19,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.icono {
-    width: 35px; 
-    max-width: 100%; 
-    height: auto;
+    margin: 0 auto; /* Centra el contenedor */
 }
 
 header {
@@ -53,6 +47,12 @@ header a:hover {
     color: grey;
 }
 
+.icono {
+    width: 35px; /* Tamaño base */
+    max-width: 100%; /* Limita el tamaño máximo */
+    height: auto; /* Mantiene la proporción */
+}
+
 nav {
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
@@ -75,6 +75,7 @@ nav p {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
     margin-bottom: 20px;
+    flex-grow: 1; /* Ocupa el espacio restante */
 }
 
 .image {
@@ -96,6 +97,7 @@ footer {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+    margin-top: auto; /* Empuja el footer hacia abajo */
 }
 
 @media (max-width: 768px) {
