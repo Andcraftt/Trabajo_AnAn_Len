@@ -1,0 +1,82 @@
+.bodyCont{
+    border: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100vh;
+}
+.izq-contactar{
+    border-right:  1px solid black;
+    background-color: rgb(255, 255, 108);
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+
+}
+.form {
+    width: 80%;
+    padding: 5%;
+    background-color: rgba(39, 185, 243, 0.63);
+    border-radius: 20px;
+    gap:30px;
+}
+input{
+    width: 80%;
+    border-color: black;
+}
+textarea{
+    border-color: black;
+}
+
+
+.der-contactar{
+    background-image: url(../img/fondoContact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: grid;
+    grid-template-areas:
+    "face face"
+    "insta twt";
+    grid-template-columns: 50% 50%;
+    grid-row: 50% 50%;
+    
+
+}
+
+
+a{
+    color: white;
+    
+}
+img{
+    width: 200px;
+    width: 200px;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+img:hover {
+    transform: rotate(360deg) scale(1.23);
+    filter: brightness(1.7) drop-shadow(0 0 10px white);
+
+}
+figure{
+    text-align: center;
+}
+.facebook{
+    align-self: center;
+    justify-self: center;
+    grid-area: face;
+}
+.instagram{
+    align-self: center;
+    justify-self: center;
+    grid-area: insta;
+}
+.twitter{
+    align-self: center;
+    justify-self: center;
+    grid-area: twt;
+}
+
+
