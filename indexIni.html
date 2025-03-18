@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Iniciar Sesión</title>
+    <title id="titulo">Iniciar Sesión</title>
 </head>
-<body>
+<body id="bodyLogin">
     <div class="login-container">
         <h2>Iniciar Sesión</h2>
+        <p>¿Es tu primera vez? <a href="./">Regístrate</a></p>
         <form>
-            <input type="text" placeholder="Usuario" required>
-            <input type="password" placeholder="Contraseña" required>
-            <button type="submit">Ingresar</button>
+            <p>Email *</p>
+            <input id="user" type="text" placeholder="Usuario" required>
+            <p>Contraseña *</p>
+            <input id="pass" type="password" placeholder="Contraseña" required>
+            <p><a href="./">¿Olvidaste la contraseña?</a></p>
+            <button type="submit">Iniciar sesión</button>
         </form>
     </div>
 </body>
